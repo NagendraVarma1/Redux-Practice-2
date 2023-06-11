@@ -4,7 +4,7 @@ const initialCartState = {
     cartOpen: false
 }
 const cartSlice = createSlice({
-    name : 'cart',
+    name : 'showCart',
     initialState: initialCartState,
     reducers: {
         cartHandler(state) {
